@@ -1,21 +1,20 @@
 <html>
 <head>
     <title>Data Pegawai</title>
-    <link rel="stylesheet" href="../css/dashboard.css">
 </head>
 <body>
-    <table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+    <table>
         <tr>
-            <td colspan="2" align="center" style="padding: 20px; background: #333; color: white;">
+            <td colspan="2">
                 <h2>Data Pegawai</h2>
             </td>
         </tr>
         <tr>
             <?php include "sidebar.php"; ?>
-            <td valign="top" style="padding: 20px;">
-                <a href="pegawai-input.php" style="display: inline-block; margin-bottom: 15px; padding: 8px 15px; background: #28a745; color: white; text-decoration: none; border-radius: 4px;">+ Tambah Pegawai</a>
-                <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-                    <tr style="background: #333; color: white;">
+            <td>
+                <a href="pegawai-input.php">+ Tambah Pegawai</a>
+                <table>
+                    <tr>
                         <th>ID Pegawai</th>
                         <th>Nama Pegawai</th>
                         <th>Alamat</th>
@@ -37,7 +36,7 @@
             </td>
         </tr>
         <tr>
-            <td colspan="2" align="center" style="padding: 20px; background: #f4f4f4;">
+            <td colspan="2">
                 <p>&copy; 2026 Toko</p>
             </td>
         </tr>
